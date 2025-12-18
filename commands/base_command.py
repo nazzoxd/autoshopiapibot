@@ -745,4 +745,5 @@ class BaseCommand:
                 'type': info['type']
             }
             for cmd, info in BaseCommand._commands.items()
+
         ]
