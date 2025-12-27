@@ -16,8 +16,9 @@ def register_start_command(bot: AsyncTeleBot):
         
         markup = InlineKeyboardMarkup(row_width=2)
         markup.add(
-            InlineKeyboardButton("👤 Buy", url="https://t.me/mhitzxg"),
-            InlineKeyboardButton("💬 Official Group", url="https://t.me/mhitzxg")
+            InlineKeyboardButton("👤 Buy", url="https://t.me/nazzogen"),
+            InlineKeyboardButton("💬 Official Group", url="https://t.me/shopicharge")
         )
         
+
         await bot.reply_to(message, f"<b>Welcome {user_link}! \nUse /cmds to see available commands.</b>", reply_markup=markup, parse_mode='HTML')
