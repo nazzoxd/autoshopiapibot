@@ -13,8 +13,8 @@ from telebot.types import InlineKeyboardMarkup, InlineKeyboardButton
 from datetime import datetime  # Fix the datetime import
 
 
-TOKEN = '7353518607:AAF2faMUxZriRhXw6tAdDYrM752J_lLjv_k'
-LOGS = '-1003290219349' #Group ID for Logs
+TOKEN = '8281283407:AAH5rN5h3OOanofg_SnSFUWrsqM7F_5-k6I'
+LOGS = '-1003519538285' #Group ID for Logs
 
 
 FREE_USER_LIMIT = int(os.getenv('FREE_USER_LIMIT', '50'))
@@ -751,3 +751,4 @@ class BaseCommand:
             for cmd, info in BaseCommand._commands.items()
 
         ]
+
