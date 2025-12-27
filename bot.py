@@ -22,7 +22,7 @@ BotCache = {}
 
 load_dotenv()
 
-TOKEN = os.environ.get('BOT_TOKEN', '7353518607:AAF2faMUxZriRhXw6tAdDYrM752J_lLjv_k')
+TOKEN = os.environ.get('BOT_TOKEN', '8281283407:AAH5rN5h3OOanofg_SnSFUWrsqM7F_5-k6I')
 
 FREE_USER_LIMIT = int(os.environ.get('FREE_USER_LIMIT', '60'))
 PREMIUM_USER_LIMIT = int(os.environ.get('PREMIUM_USER_LIMIT', '20'))
@@ -104,4 +104,5 @@ async def main():
 
 if __name__ == '__main__':
     asyncio.run(main())
+
 
