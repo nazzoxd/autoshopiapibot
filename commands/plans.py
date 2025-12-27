@@ -16,8 +16,9 @@ def register_plans_command(bot: AsyncTeleBot):
         
         markup = InlineKeyboardMarkup(row_width=2)
         markup.add(
-            InlineKeyboardButton("👤   Buy", url="https://t.me/mhitzxg"),
-            InlineKeyboardButton("💬 Official Group", url="https://t.me/mhitzxg")
+            InlineKeyboardButton("👤   Buy", url="https://t.me/nazzogen"),
+            InlineKeyboardButton("💬 Official Group", url="https://t.me/shopicharge")
         )
         
         await bot.reply_to(message, f"<i>[ϟ] Premium Prices</i> \n\n<b>$4</b> »»»<i> 7 Days + 7 Credits</i>\n<b>$7</b> »»» <i>15 Days + 15 Credits</i>\n\n<i>Credits Prices</i>\n\n<b>$5</b> »»» <i>100 Credits</i>", reply_markup=markup, parse_mode='HTML')
+
